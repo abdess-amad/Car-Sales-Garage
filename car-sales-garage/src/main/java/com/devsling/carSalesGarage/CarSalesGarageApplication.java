@@ -7,6 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import com.devsling.carSalesGarage.dto.CarRequestDto;
 import com.devsling.carSalesGarage.enums.FuelType;
@@ -14,6 +15,7 @@ import com.devsling.carSalesGarage.enums.TransmissionType;
 import com.devsling.carSalesGarage.services.CarService;
 
 @SpringBootApplication
+@EnableAspectJAutoProxy
 public class CarSalesGarageApplication {
 
 	public static void main(String[] args) {
