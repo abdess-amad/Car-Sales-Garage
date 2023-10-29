@@ -7,6 +7,7 @@ retrieving cars by specific criteria, fetching available car makes, and updating
 
 * [JDK]			    (Version 17)
 * [Spring Boot]	(v3.1.5)
+* [Eclipse IDE] (Version: 2022-12 (4.26.0))
 
 # Getting Started
 * Clone the Repository : https://github.com/abdess-amad/Car-Sales-Garage.git
